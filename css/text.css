@@ -1,0 +1,66 @@
+body{
+    margin: 50px;
+    font-size: 16px;
+    font-family:outfit ;
+    background-color:rgb(243,229,216);
+    
+}
+h1 ,h2{
+    font-family: 'Young Serif', serif;
+    font-weight: 400;
+}
+.container{
+    padding: 30px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 100px;
+}
+.preparaion-time-container{
+    padding: 5px;
+    background-color:rgb(255,247,252);
+}
+.prepration-time-text{
+    margin-bottom: 0px;
+    margin-top:0px ;
+    padding-left:18px;
+
+}
+.list-item-prepration-time-container{
+    margin-top: 0px;
+    text-indent: 7px
+}
+.list-item-prepration-time{
+    padding-top: 10px;
+}
+.list-item-ingredients-container{
+    padding-left: 20px;
+}
+.list-item-ingredients{
+    text-indent: 7px ;
+    padding-bottom: 10px;
+}
+.order-item-instructions-container ::marker{
+    font-weight: bold;
+    font-size: large;
+}
+.order-item-instructions-container{
+    padding-left: 25px;
+    margin-bottom: 30px;
+}
+.list-item-instructions{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.nutrition-table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.td-nutrition-table{
+    border-bottom: 1px solid;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.nutrition-table tr:last-child td {
+    border-bottom: none;
+}
